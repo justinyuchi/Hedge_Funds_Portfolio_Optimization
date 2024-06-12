@@ -34,19 +34,19 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 
 ### Problem Formulation
 
-**Objective Function:**
-- Information ratio: A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark
-- Transaction cost
-- Tax expense
+    **Objective Function:**
+    - Information ratio: A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark
+    - Transaction cost
+    - Tax expense
 
-**Constraints:**
-- Risk exposure constraints: keep certain βs low but increase exposure to certain risks/factors
-- Strategy constraints: As a hedge fund employing a long/short strategy, short overvalued stocks and long undervalued stocks in the same sector
-- Weight constraints: For internal compliance, e.g., no weight can be greater than 0.05 or lower than -0.05
-- Cash holdings constraints: Avoid redundant capital usage and preserve cash for future margin calls
+    **Constraints:**
+    - Risk exposure constraints: keep certain βs low but increase exposure to certain risks/factors
+    - Strategy constraints: As a hedge fund employing a long/short strategy, short overvalued stocks and long undervalued stocks in the same sector
+    - Weight constraints: For internal compliance, e.g., no weight can be greater than 0.05 or lower than -0.05
+    - Cash holdings constraints: Avoid redundant capital usage and preserve cash for future margin calls
 
-**Recent State:**
-- Current weights for each asset
+    **Recent State:**
+    - Current weights for each asset
 
 ### Methodology
 
