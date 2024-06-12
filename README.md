@@ -90,7 +90,7 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 ![Factor Model Residuals](Graphical_Illustrations/residuals.png)
 
 #### Contribution of Each Position to Portfolio Risk Exposures
-![Position Risk Exposures](Graphical_Illustrations/position_risk_exposures.png)
+![Position Risk Exposures](Graphical_Illustrations/position_risk_exposures.gif)
 
 #### Contribution of Each Sector to Portfolio Risk Exposures
 ![Sector Risk Exposures](Graphical_Illustrations/sector_risk_exposures.png)
