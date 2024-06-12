@@ -25,6 +25,8 @@ Suppose there are five factors (as described by the Fama-French 5-factor model) 
 - F3: Unknown
 - F4: Unknown
 - F5: Unknown
+![Risk Factors](Graphical_Illustrations/risk_factors_past_performance.png)
+
 
 ### Solution
 

@@ -1,0 +1,100 @@
+Symbol,Description,Quantity,Currency,LastPrice,PricePaid,DayChange,ProfitLoss,MarketValue,ProfitLossPercentage
+AAPL,Apple Inc,109,USD,189.37,182.61,-1.03,736.84,20641.33,3.70
+ABNB,Airbnb Inc - Ordinary Shares - Class A,170,USD,126.48,117.23,-1.08,"1,572.50",21501.6,7.89
+ACRE,Ares Commercial Real Estate Corp,-2049,USD,10,9.73,0.12,-553.23,20490,-2.77
+ADBE,Adobe Inc,34,USD,617.39,583.67,-5.93,"1,146.48",20991.26,5.78
+ADNT,Adient plc,-636,USD,32.45,31.36,0.28,-693.24,20638.2,-3.48
+AEE,Ameren Corp.,260,USD,76.99,76.84,-0.86,39.00,20017.4,0.20
+ALSN,Allison Transmission Holdings Inc,382,USD,53.31,52.29,0.20,389.64,20364.42,1.95
+AMED,Amedisys Inc.,-215,USD,93.93,93,-0.08,-199.95,20194.95,-1.00
+AMPH,Amphastar Pharmaceuticals Inc,448,USD,55.74,44.63,1.33,"4,977.28",24971.52,24.89
+ARE,Alexandria Real Estate Equities Inc.,200,USD,109.01,99.7,1.29,"1,862.00",21802,9.34
+ASML,ASML Holding NV - New York Shares,-31,USD,687.61,638.27,11.62,"-1,529.54",21315.91,-7.73
+AVTR,Avantor Inc.,-1089,USD,20.86,18.29,0.42,"-2,798.73",22716.54,-14.05
+BA,Boeing Co.,104,USD,224.43,191.78,2.06,"3,395.60",23340.72,17.02
+BAESY,BAE Systems plc - ADR,369,USD,52.94,54.02,-0.70,-398.52,19534.86,-2.00
+BCPC,Balchem Corp.,-169,USD,124.94,118.17,2.23,"-1,144.13",21114.86,-5.73
+BH,Biglari Holdings Inc. - Ordinary Shares - Class B,138,USD,143.94,145.78,-1.18,-253.92,19863.72,-1.26
+BJRI,BJ`s Restaurant Inc.,-732,USD,30.3,27.31,0.26,"-2,188.68",22179.6,-10.95
+BKNG,Booking Holdings Inc,7,USD,3126.29,3032.31,-15.62,657.86,21884.03,3.10
+BLBD,Blue Bird Corp,-1111,USD,18.48,17.97,0.51,-566.61,20531.28,-2.84
+BRK-B,Berkshire Hathaway Inc. - Ordinary Shares - Class B,-56,USD,358.69,350.2,-1.36,-475.44,20086.64,-2.42
+CARG,CarGurus Inc - Ordinary Shares - Class A,1018,USD,21.93,19.59,0.32,"2,382.12",22324.74,11.94
+CBRL,Cracker Barrel Old Country Store Inc,-308,USD,75.11,64.69,-0.03,"-3,209.36",23133.88,-16.11
+CCS,Century Communities Inc,-290,USD,72.92,68.85,2.01,"-1,180.30",21146.8,-5.91
+CERT,Certara Inc,-1630,USD,14.54,12.29,-0.30,"-3,667.50",23700.2,-18.31
+CFRHF,Compagnie financiere Richemont SA - Registered Shares - Class A,161,USD,123.31,124.0425,-1.30,-117.93,19852.91,-0.59
+CIGI,Colliers International Group Inc,-205,USD,107.13,97.25,0.37,"-2,025.40",21961.65,-10.16
+COST,Costco Wholesale Corp,-35,USD,587.86,564.72,-6.14,-809.90,20575.1,-4.10
+CPRT,"Copart, Inc.",-432,USD,50.22,46.32,-0.51,"-1,684.80",21695.04,-8.42
+CSX,CSX Corp.,-657,USD,31.73,30.37,-0.21,-893.52,20846.61,-4.48
+CTO,CTO Realty Growth Inc - Ordinary Shares- New,-1214,USD,16.9,16.42,0.05,-582.72,20516.6,-2.92
+CVX,Chevron Corp.,140,USD,143.91,142.66,-1.60,175.00,20147.4,0.88
+DAN,Dana Inc,-1689,USD,13.24,11.81,0.23,"-2,415.27",22362.36,-12.11
+DG,Dollar General Corp.,-167,USD,128.88,119.84,1.38,"-1,509.68",21522.96,-7.54
+DHI,D.R. Horton Inc.,165,USD,127.26,121.61,1.30,932.25,20997.9,4.65
+DT,Dynatrace Inc,406,USD,53.43,49.14,1.18,"1,741.74",21692.58,8.73
+DVA,DaVita Inc,236,USD,99.61,84.57,-0.06,"3,549.44",23507.96,17.78
+DVN,Devon Energy Corp.,454,USD,44.88,43.9,0.06,444.92,20375.52,2.23
+EAT,"Brinker International, Inc.",-592,USD,36.19,33.73,0.75,"-1,456.32",21424.48,-7.29
+ENTG,Entegris Inc,-219,USD,104.51,91.14,0.86,"-2,928.03",22887.69,-14.67
+EQR,Equity Residential Properties Trust,368,USD,56.58,54.37,-0.41,813.28,20821.44,4.06
+EXC,Exelon Corp.,-510,USD,38.39,39.24,-0.77,433.50,19578.9,2.17
+FAST,Fastenal Co.,-338,USD,59.64,59.24,-0.26,-135.20,20158.32,-0.68
+FNV,Franco-Nevada Corporation,-167,USD,113.96,120.07,-4.25,"1,020.37",19031.32,5.09
+GD,General Dynamics Corp.,82,USD,244.83,241.84,-0.39,245.18,20076.06,1.24
+GNE,Genie Energy Ltd - Ordinary Shares - Class B,-882,USD,24.11,22.62,-0.36,"-1,314.18",21265.02,-6.59
+GOOGL,Alphabet Inc - Ordinary Shares - Class A,151,USD,134.99,131.4,-2.21,542.09,20383.49,2.73
+HCA,HCA Healthcare Inc,85,USD,249.08,233.26,2.43,"1,344.70",21171.8,6.78
+HEI,Heico Corp.,124,USD,168.77,160.7,-1.71,"1,000.68",20927.48,5.02
+HII,Huntington Ingalls Industries Inc,87,USD,233.75,227.72,-2.93,524.61,20336.25,2.65
+INTC,Intel Corp.,-527,USD,44.94,37.99,0.71,"-3,662.65",23683.38,-18.29
+JLL,Jones Lang Lasalle Inc.,-138,USD,156.73,144.79,1.23,"-1,647.72",21628.74,-8.25
+JOE,St. Joe Co.,-401,USD,51.99,49.73,0.27,-906.26,20847.99,-4.54
+KHC,Kraft Heinz Co,606,USD,35.08,32.97,-0.04,"1,278.66",21258.48,6.40
+KMX,Carmax Inc,-313,USD,63.16,63.72,-0.52,175.28,19769.08,0.88
+KO,Coca-Cola Co,350,USD,58.23,57.03,-0.35,420.00,20380.5,2.10
+KSS,Kohl`s Corp.,-840,USD,23.85,23.77,0.32,-67.20,20034,-0.34
+LEGH,Legacy Housing Corp,1053,USD,22.5,18.92,0.20,"3,769.74",23692.5,18.92
+LEN,Lennar Corp. - Ordinary Shares - Class A,165,USD,126.84,120.88,0.78,983.40,20928.6,4.93
+LMT,Lockheed Martin Corp.,44,USD,445.01,445.84,-3.26,-36.52,19580.44,-0.19
+LVMUY,Lvmh Moet Hennessy Vuitton SE - ADR - Level I,132,USD,151.49,150.225,1.73,166.98,19996.68,0.84
+M,Macy`s Inc,-1687,USD,15.64,11.84,0.68,"-6,410.60",26384.68,-32.09
+MDLZ,Mondelez International Inc. - Ordinary Shares - Class A,289,USD,70.44,68.97,-0.99,424.83,20357.16,2.13
+META,Meta Platforms Inc - Ordinary Shares - Class A,62,USD,332.2,319.59,-6.79,781.82,20596.4,3.95
+MMM,3M Co.,-219,USD,98.47,91.35,-0.04,"-1,559.28",21564.93,-7.79
+MNST,Monster Beverage Corp.,358,USD,54.71,55.8,-0.57,-390.22,19586.18,-1.95
+MRK,Merck & Co Inc,-192,USD,101.13,103.99,0.95,549.12,19416.96,2.75
+MSFT,Microsoft Corporation,55,USD,378.85,362.9,-3.85,877.25,20836.75,4.40
+MTRN,Materion Corp,188,USD,112,106.06,-0.56,"1,116.72",21056,5.60
+MTX,"Minerals Technologies, Inc.",345,USD,61.82,58.01,0.27,"1,314.45",21327.9,6.57
+MUSA,Murphy USA Inc,-54,USD,363.23,366.88,-1.67,197.10,19614.42,0.99
+NC,Nacco Industries Inc. - Ordinary Shares - Class A,-594,USD,34.9,33.52,0.85,-819.72,20730.6,-4.12
+NFE,New Fortress Energy Inc - Ordinary Shares - Class A,-639,USD,37.48,31.31,0.48,"-3,942.63",23949.72,-19.71
+NFLX,NetFlix Inc,46,USD,477.19,434.47,-1.81,"1,965.12",21950.74,9.83
+NJR,New Jersey Resources Corporation,-482,USD,41.88,41.32,-0.21,-269.92,20186.16,-1.36
+NOC,Northrop Grumman Corp.,43,USD,467.41,460.29,-2.67,306.16,20098.63,1.55
+NVDA,NVIDIA Corp,-43,USD,481.4,463.09,3.19,-787.33,20700.2,-3.95
+ODC,Oil-Dri Corp. Of America,-280,USD,56.9,57.71,-0.11,226.80,15932,1.40
+ORCL,Oracle Corp.,-181,USD,116.21,110.71,-0.03,-995.50,21034.01,-4.97
+PEP,PepsiCo Inc,119,USD,167.16,167,-1.70,19.04,19892.04,0.10
+PG,Procter & Gamble Co.,133,USD,151.13,149.74,-1.16,184.87,20100.29,0.93
+PHM,PulteGroup Inc,244,USD,88.01,81.8,0.42,"1,515.24",21474.44,7.59
+PTEN,Patterson-UTI Energy Inc,1618,USD,11.82,12.27,0.08,-728.10,19124.76,-3.67
+REX,REX American Resources Corp,-555,USD,36.89,36.04,0.24,-471.75,20473.95,-2.36
+RMAX,RE/MAX Holdings Inc - Ordinary Shares - Class A,-2111,USD,9.23,9.46,0.10,485.53,19484.53,2.43
+SO,Southern Company,294,USD,70.23,67.77,-0.26,723.24,20647.62,3.63
+STAA,Staar Surgical Co.,-594,USD,31.61,33.55,-0.36,"1,152.36",18776.34,5.78
+TAYD,Taylor Devices Inc.,-919,USD,23.15,21.68,0.56,"-1,350.93",21274.85,-6.78
+TPR,Tapestry Inc,731,USD,31.67,27.34,0.65,"3,165.23",23150.77,15.84
+TXN,Texas Instruments Inc.,-138,USD,153.2,144.72,0.30,"-1,170.24",21141.6,-5.86
+UHS,"Universal Health Services, Inc. - Ordinary Shares - Class B",154,USD,135.75,129.97,-0.33,890.12,20905.5,4.45
+UNP,Union Pacific Corp.,-94,USD,221.47,211.66,0.24,-922.14,20818.18,-4.63
+URI,"United Rentals, Inc.",45,USD,476.22,438.51,20.34,"1,696.95",21429.9,8.60
+WEC,WEC Energy Group Inc,248,USD,82.97,80.61,-0.19,585.28,20576.56,2.93
+WINA,Winmark Corporation,46,USD,430.86,434.96,-0.42,-188.60,19819.56,-0.94
+WIRE,Encore Wire Corp.,-109,USD,184.34,182.01,-2.99,-253.97,20093.06,-1.28
+WMT,Walmart Inc,122,USD,156.08,164.14,-2.56,-983.32,19041.76,-4.91
+WPM,Wheaton Precious Metals Corp,-468,USD,49.05,42.56,-0.10,"-3,037.32",22955.4,-15.25
+WST,"West Pharmaceutical Services, Inc.",-60,USD,348.92,335.51,-3.50,-804.60,20935.2,-4.00
+XOM,Exxon Mobil Corp.,193,USD,102.34,103.25,-1.56,-175.63,19751.62,-0.88
