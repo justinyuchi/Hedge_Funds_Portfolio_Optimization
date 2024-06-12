@@ -113,7 +113,7 @@ In the same way, through this visualization, we can realize whether we overweigh
 
 #### Weights of Each Sectors (Before and After)
 We also have to investigate the the weights in each sectors in these rocommended portfolios. If we think there are inappropriate allocations, we can impose contraints on our optimizer accordingly.
-![Sector Risk Exposures](Graphical_Illustrations/sector_risk_exposures.png)
+![Sector Weights](Graphical_Illustrations/sector_weights.png)
 
 
 ### References
