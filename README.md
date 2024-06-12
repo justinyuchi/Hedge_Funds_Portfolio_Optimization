@@ -90,7 +90,7 @@ For this example, we can find out that even using FF5 risk models, there are sti
 ![Factor Model Residuals](Graphical_Illustrations/residuals.png)
 
 
-### Solutions
+### Optimization and Rebalancing Strategy
 #### Weight of Each Asset (Before and After)
 This graph showcases the recommended weight adjustment based on our algorithms.
 ![Weight Adjustments](Graphical_Illustrations/weights_adjustment.png)
@@ -112,7 +112,7 @@ We also have to investigate the weights in each sector in these recommended port
 ![Sector Weights](Graphical_Illustrations/sector_weights.png)
 
 
-## Group Members
+### Group Members
 - Justin Yu-Chi Hsu
 - Qisong Li
 - Lei Jiang
