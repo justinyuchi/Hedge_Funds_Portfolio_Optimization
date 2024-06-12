@@ -28,9 +28,9 @@ Suppose there are five factors (as described by the Fama-French 5-factor model) 
 ![Risk Factors](Graphical_Illustrations/risk_factors_past_performance.png)
 
 
-### Solution
+### How to exploit the insights from the forecast
 
-We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negative β2, the portfolio’s factor loading to F2.
+We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negative β2, the portfolio’s factor loading to F2. At the same time, we want to maximize our information ratio.
 
 ### Problem Formulation
 
@@ -50,7 +50,7 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 
 ### Methodology
 
-1. **Model Selection:** Fama-French 5 Factors
+1. **Risk Model Selection:** Fama-French 5 Factors
 2. **Data Collection:**
     - Download recent portfolio weights in each stock (ex. OpenPosition_11_29_2023.csv). 
     - Use API and web scraping to collect information related to each stocks(such as sector classification).
