@@ -11,7 +11,9 @@
 A hedge fund needs to optimize and rebalance its portfolio based on both strategy and constraints, including:
 - Recent State: current weights for each asset
 - Risk exposure constraints
-- Weight constraints (Some stocks/sectors should should have positive/negative weight)
+- Weight constraints
+  - Some stocks/sectors should have positive/negative weight
+  - Internal compliance on maximum, and minimum weights
 - Strategy constraints
 - Cash holdings constraints
 
