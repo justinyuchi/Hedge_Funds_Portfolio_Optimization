@@ -99,6 +99,10 @@ For this example, we can find out even using FF5 risk models, there are still ro
 This graphs showcases the recommended weights adjustment based on our algorithms.
 ![Weight Adjustments](Graphical_Illustrations/weights_adjustment.png)
 
+#### Expected Alpha and Volatility (Daily and Annualized)
+This graph showcases the given constraints on weights, sector weights, factor loadings, expected performance of our solutions compared to the original portfolios.
+![Expected Alpha and Volatility](Graphical_Illustrations/alpha_volatility.png)
+
 #### Contribution of Each Position to Portfolio Risk Exposures
 This graph gives a visualization of before/after factor loading contribution from each stock, so that we can realize whether we depend on only several or overweight several stocks to get desired factor loadings.
 ![Position Risk Exposures](Graphical_Illustrations/position_risk_exposures.gif)
@@ -107,9 +111,10 @@ This graph gives a visualization of before/after factor loading contribution fro
 In the same way, through this visualization, we can realize whether we overweight several sectors to gain desired exposure to certain risk factors.
 ![Sector Risk Exposures](Graphical_Illustrations/sector_risk_exposures.png)
 
-#### Expected Alpha and Volatility (Daily and Annualized)
-This graph showcases the given constraints on weights, sector weights, factor loadings, expected performance of our solutions compared to the original portfolios.
-![Expected Alpha and Volatility](Graphical_Illustrations/alpha_volatility.png)
+#### Weights of Each Sectors (Before and After)
+We also have to investigate the the weights in each sectors in these rocommended portfolios. If we think there are inappropriate allocations, we can impose contraints on our optimizer accordingly.
+![Sector Risk Exposures](Graphical_Illustrations/sector_risk_exposures.png)
+
 
 ### References
 
