@@ -36,28 +36,29 @@ We aim to have a portfolio insensitive to F1, F3, F4, and F5 but has a negative 
 
     Objective Function:
 
-        •	Maximize the Information Ratio: A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark.
-        •	Minimize Transaction Costs:
-            •	Costs incurred when buying or selling assets.
-            •	Minimize Tax Expenses:
-            •	Taxes associated with trading activities and capital gains.
+        •Maximize the Information Ratio:
+            •A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark.
+        •Minimize Transaction Costs:
+            •Costs incurred when buying or selling assets.
+        •Minimize Tax Expenses:
+            •Taxes associated with trading activities and capital gains.
 
     Constraints:
 
-        •	Risk Exposure Constraints:
-            •	Maintain low exposure to certain βs.
-            •	Increase exposure to specific risks/factors.
-        •	Strategy Constraints:
-            •	Employ a long/short strategy:
-                •	Short overvalued stocks.
-                •	Long undervalued stocks in the same sector.
-        •	Weight Constraints:
-        •	    For internal compliance:
-                •	No weight can be greater than 0.05.
-                •	No weight can be lower than -0.05.
-            •	Cash Holdings Constraints:
-                •	Avoid redundant capital usage.
-                •	Preserve cash for future margin calls.
+        •Risk Exposure Constraints:
+            •Maintain low exposure to certain βs.
+            •Increase exposure to specific risks/factors.
+        •Strategy Constraints:
+            •Employ a long/short strategy:
+                •Short overvalued stocks.
+                •Long undervalued stocks in the same sector.
+        •Weight Constraints:
+            •For internal compliance:
+                •No weight can be greater than 0.05.
+                •No weight can be lower than -0.05.
+            •Cash Holdings Constraints:
+                •Avoid redundant capital usage.
+                •Preserve cash for future margin calls.
 
     Recent State:
 
