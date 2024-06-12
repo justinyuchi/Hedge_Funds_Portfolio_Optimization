@@ -34,19 +34,19 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 
 ### Problem Formulation
 
-    **Objective Function:**
-    - Information ratio: A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark
-    - Transaction cost
-    - Tax expense
+**Objective Function:**
+- Information ratio: A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark
+- Transaction cost
+- Tax expense
 
-    **Constraints:**
-    - Risk exposure constraints: keep certain βs low but increase exposure to certain risks/factors
-    - Strategy constraints: As a hedge fund employing a long/short strategy, short overvalued stocks and long undervalued stocks in the same sector
-    - Weight constraints: For internal compliance, e.g., no weight can be greater than 0.05 or lower than -0.05
-    - Cash holdings constraints: Avoid redundant capital usage and preserve cash for future margin calls
+**Constraints:**
+- Risk exposure constraints: keep certain βs low but increase exposure to certain risks/factors
+- Strategy constraints: As a hedge fund employing a long/short strategy, short overvalued stocks and long undervalued stocks in the same sector
+- Weight constraints: For internal compliance, e.g., no weight can be greater than 0.05 or lower than -0.05
+- Cash holdings constraints: Avoid redundant capital usage and preserve cash for future margin calls
 
-    **Recent State:**
-    - Current weights for each asset
+**Recent State:**
+- Current weights for each asset
 
 ### Methodology
 
@@ -59,10 +59,10 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
         - Portfolio_residuals.csv: Daily factor model residuals for 99 companies from 2021/12/06 to 2023/10/30
 
     **Data Sources:**
-    - CQA challenge UCSD Team 1 portfolio
-    - Yahoo Finance Stock Data: Adjusted Return
-    - Scraping Yahoo Finance Stock Profile: Sector
-    - Kenneth R. French - Fama/French 5 Research Factors (2x3)
+        - CQA challenge UCSD Team 1 portfolio
+        - Yahoo Finance Stock Data: Adjusted Return
+        - Scraping Yahoo Finance Stock Profile: Sector
+        - Kenneth R. French - Fama/French 5 Research Factors (2x3)
 
 3. **Pre-Optimization Analysis:**
     - Analyze the distribution of factor loadings, alphas, sector distribution, and residuals
