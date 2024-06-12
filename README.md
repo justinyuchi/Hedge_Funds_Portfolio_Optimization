@@ -78,25 +78,25 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 ### Results
 
 #### Distribution of Factor Loadings (Each Asset)
-![Distribution of Factor Loadings](path/to/factor_loadings.png)
+![Distribution of Factor Loadings](Graphical_Illustrations/factor_loadings.png)
 
 #### Distribution of Alphas (Each Asset)
-![Distribution of Alphas](path/to/alphas.png)
+![Distribution of Alphas](Graphical_Illustrations/alphas.png)
 
 #### Distribution of Sector (Each Asset)
-![Distribution of Sector](path/to/sector_distribution.png)
+![Distribution of Sector](Graphical_Illustrations/sector_distribution.png)
 
 #### Factor Model Residuals’ Attributes
-![Factor Model Residuals](path/to/residuals.png)
+![Factor Model Residuals](Graphical_Illustrations/residuals.png)
 
 #### Contribution of Each Position to Portfolio Risk Exposures
-![Position Risk Exposures](path/to/position_risk_exposures.png)
+![Position Risk Exposures](Graphical_Illustrations/position_risk_exposures.png)
 
 #### Contribution of Each Sector to Portfolio Risk Exposures
-![Sector Risk Exposures](path/to/sector_risk_exposures.png)
+![Sector Risk Exposures](Graphical_Illustrations/sector_risk_exposures.png)
 
 #### Expected Alpha and Volatility (Daily and Annualized)
-![Expected Alpha and Volatility](path/to/alpha_volatility.png)
+![Expected Alpha and Volatility](Graphical_Illustrations/alpha_volatility.png)
 
 ### References
 
