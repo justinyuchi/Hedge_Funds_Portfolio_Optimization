@@ -37,32 +37,32 @@ We aim to have a portfolio insensitive to F1, F3, F4, and F5 but has a negative 
     Objective Function:
 
         Maximize the Information Ratio:
-            •A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark.
+            • A measure of the risk-adjusted returns of a financial asset or portfolio relative to a benchmark.
         Minimize Transaction Costs:
-            •Costs incurred when buying or selling assets.
+            • Costs incurred when buying or selling assets.
         Minimize Tax Expenses:
-            •Taxes associated with trading activities and capital gains.
+            • Taxes associated with trading activities and capital gains.
 
     Constraints:
 
         Risk Exposure Constraints:
-            •Maintain low exposure to certain βs.
-            •Increase exposure to specific risks/factors.
+            • Maintain low exposure to certain βs.
+            • Increase exposure to specific risks/factors.
         Strategy Constraints:
-            •Employ a long/short strategy:
-                •Short overvalued stocks.
-                •Long undervalued stocks in the same sector.
+            • Employ a long/short strategy:
+                • Short overvalued stocks.
+                • Long undervalued stocks in the same sector.
         Weight Constraints:
-            •For internal compliance:
-                •No weight can be greater than 0.05.
-                •No weight can be lower than -0.05.
-            •Cash Holdings Constraints:
-                •Avoid redundant capital usage.
-                •Preserve cash for future margin calls.
+            • For internal compliance:
+                • No weight can be greater than 0.05.
+                • No weight can be lower than -0.05.
+            • Cash Holdings Constraints:
+                • Avoid redundant capital usage.
+                • Preserve cash for future margin calls.
 
     Recent State:
 
-        Current weights for each asset
+        Current weights for each asset.
 
 ### Methodology
 
@@ -71,8 +71,8 @@ We aim to have a portfolio insensitive to F1, F3, F4, and F5 but has a negative 
     - Download recent portfolio weights in each stock (ex. OpenPosition_11_29_2023.csv). 
     - Use API and web scraping to collect information related to each stock (such as sector classification).
     - Creating a data frame by merging the information from the previous two steps, generating:
-        - Portfolio_betas.csv: Stock symbols, company names, shares held, trading currency, latest trading price, purchase price, factor coefficients
-        - Portfolio_residuals.csv: Daily factor model residuals for 99 companies from 2021/12/06 to 2023/10/30
+        - Portfolio_betas.csv: Stock symbols, company names, shares held, trading currency, latest trading price, purchase price, factor coefficients.
+        - Portfolio_residuals.csv: Daily factor model residuals for 99 companies from 2021/12/06 to 2023/10/30.
 
     **Data Sources:**
         - CQA challenge UCSD Team 1 portfolio
@@ -85,10 +85,10 @@ We aim to have a portfolio insensitive to F1, F3, F4, and F5 but has a negative 
 
 4. **Optimization**
     
-    - Define Objective Function
-    - Create constraints such as those related to betas, weights of each stock, and the long/short ratio
-    - Compute the portfolio's initial state
-    - Maximize the objective function with the given constraints
+    - Define Objective Function: We choose "Maximize the Information Ratio" in this study.
+    - Create constraints such as those related to betas, weights of each stock, and the long/short ratio.
+    - Compute the portfolio's initial state.
+    - Maximize the objective function with the given constraints.
 
 5. **Post-Optimization Analysis:**
     - Comparing factor loadings, alphas, sector distribution, and residuals.
