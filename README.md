@@ -17,7 +17,7 @@ Key questions:
 
 ### Scenario
 
-As future quantitative hedge fund managers, we may need to adjust our portfolio based on forecasted economic trends. Short-term risks can be hedged using derivatives, but long-term adjustments are necessary to align with incoming macroeconomic conditions. The goal is to adjust the portfolio to exploit these opportunities while adhering to internal compliance rules.
+As future quantitative hedge fund managers, we may need to adjust our portfolio based on forecasted economic trends. Short-term risks can be hedged using derivatives, but long-term adjustments must align with incoming macroeconomic conditions. The goal is to adjust the portfolio to exploit these opportunities while adhering to internal compliance rules.
 
 Suppose there are five factors (as described by the Fama-French 5-factor model) in the market, with the following forecasted trends over the next 3 years:
 - F1: Unknown
@@ -30,7 +30,7 @@ Suppose there are five factors (as described by the Fama-French 5-factor model) 
 
 ### How to exploit the insights from the forecast
 
-We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negative β2, the portfolio’s factor loading to F2. At the same time, we want to maximize our information ratio.
+We aim to have a portfolio insensitive to F1, F3, F4, and F5 but has a negative β2, the portfolio’s factor loading to F2. At the same time, we want to maximize our information ratio.
 
 ### Problem Formulation
 
@@ -69,8 +69,8 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 1. **Risk Model Selection:** Fama-French 5 Factors
 2. **Data Collection:**
     - Download recent portfolio weights in each stock (ex. OpenPosition_11_29_2023.csv). 
-    - Use API and web scraping to collect information related to each stocks(such as sector classification).
-    - Creating dataframe by merging the information from the previous two steps, generating:
+    - Use API and web scraping to collect information related to each stock (such as sector classification).
+    - Creating a data frame by merging the information from the previous two steps, generating:
         - Portfolio_betas.csv: Stock symbols, company names, shares held, trading currency, latest trading price, purchase price, factor coefficients
         - Portfolio_residuals.csv: Daily factor model residuals for 99 companies from 2021/12/06 to 2023/10/30
 
@@ -93,7 +93,7 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 5. **Post-Optimization Analysis:**
     - Comparing factor loadings, alphas, sector distribution, and residuals.
     - Visualizing the properties of the solution.
-    - If there is unwanted weights or factor loadings contribution concentration (sector, asset), we can impose new constraints in our optimization algorithms.
+    - If unwanted weights or factor loadings contribution concentration (sector, asset) exist, we can impose new constraints in our optimization algorithms.
     
 
 ### EDA
