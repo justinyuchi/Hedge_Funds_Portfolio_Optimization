@@ -1,4 +1,4 @@
-# Hedge_Funds_Portfolio_Optimization
+# A Long/Short Hedge Fund: Constrained Portfolio Optimization & Rebalancing Solution
 
 ## Group Members
 - Justin Yu-Chi Hsu
@@ -6,14 +6,12 @@
 - Lei Jiang
 - Yu Zhang
 
-## Constrained Portfolio Optimization & Rebalancing Solution
-
 ### Motivation
 
 A hedge fund needs to optimize and rebalance its portfolio based on both strategy and constraints, including:
 - Recent State: current weights for each asset
 - Risk exposure constraints
-- Weight constraints
+- Weight constraints (Some stocks/sectors should should have positive/negative weight)
 - Strategy constraints
 - Cash holdings constraints
 
