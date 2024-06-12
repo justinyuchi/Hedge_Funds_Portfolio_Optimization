@@ -52,24 +52,33 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 
 1. **Model Selection:** Fama-French 5 Factors
 2. **Data Collection:**
-    - Portfolio_betas.csv: Stock symbols, company names, shares held, trading currency, latest trading price, purchase price, factor coefficients
-    - Portfolio_residuals.csv: Daily factor model residuals for 99 companies from 2021/12/06 to 2023/10/30
+    - Download recent portfolio weights in each stock (ex. OpenPosition_11_29_2023.csv). 
+    - Use API and web scraping to collect information related to each stocks(such as sector classification).
+    - Creating dataframe by merging the information from the previous two steps, generating:
+        - Portfolio_betas.csv: Stock symbols, company names, shares held, trading currency, latest trading price, purchase price, factor coefficients
+        - Portfolio_residuals.csv: Daily factor model residuals for 99 companies from 2021/12/06 to 2023/10/30
 
-**Data Sources:**
-- CQA challenge UCSD Team 1 portfolio
-- Yahoo Finance Stock Data: Adjusted Return
-- Scraping Yahoo Finance Stock Profile: Sector
-- Kenneth R. French - Fama/French 5 Research Factors (2x3)
+    **Data Sources:**
+    - CQA challenge UCSD Team 1 portfolio
+    - Yahoo Finance Stock Data: Adjusted Return
+    - Scraping Yahoo Finance Stock Profile: Sector
+    - Kenneth R. French - Fama/French 5 Research Factors (2x3)
 
-3. **Data Processing:**
-    - Download and scrape data
-    - Create constraints of betas, weights of each stock, and the long/short ratio
-    - Compute the portfolio's initial state
-
-4. **Analysis:**
-    - Optimize and rebalance the portfolio
+3. **Pre-Optimization Analysis:**
     - Analyze the distribution of factor loadings, alphas, sector distribution, and residuals
+
+4. **Optimization**
+    
+    - Define Objective Function
+    - Create constraints such as those related to betas, weights of each stock, and the long/short ratio
+    - Compute the portfolio's initial state
     - Maximize the objective function with the given constraints
+
+5. **Post-Optimization Analysis:**
+    - Comparing factor loadings, alphas, sector distribution, and residuals.
+    - Visualizing the properties of the solution.
+    - If there is unwanted weights or factor loadings contribution concentration (sector, asset), we can impose new constraints in our optimization algorithms.
+    
 
 ### EDA
 
