@@ -75,7 +75,7 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
     - Analyze the distribution of factor loadings, alphas, sector distribution, and residuals
     - Maximize the objective function with the given constraints
 
-### Results
+### EDA
 
 #### Distribution of Factor Loadings (Each Asset)
 Before optimization, we should delve into EDA, to realize the styles of each asset, that is to say, the factors loadings distribution of our asset.
@@ -92,6 +92,12 @@ We also have to delve into the weight distribution in each sector.
 #### Factor Model Residuals’ Attributes
 For this example, we can find out even using FF5 risk models, there are still roughly 60% of stocks return variation unexplained. This is where our optimization algorithm can help, increasing the information ratio based on the covariance matrix of residuals.
 ![Factor Model Residuals](Graphical_Illustrations/residuals.png)
+
+
+### Solutions
+#### Weight of Each Asset (Before and After)
+This graphs showcases the recommended weights adjustment based on our algorithms.
+![Weight Adjustments](Graphical_Illustrations/weights_adjustment.png)
 
 #### Contribution of Each Position to Portfolio Risk Exposures
 This graph gives a visualization of before/after factor loading contribution from each stock, so that we can realize whether we depend on only several or overweight several stocks to get desired factor loadings.
