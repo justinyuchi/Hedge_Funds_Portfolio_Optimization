@@ -78,24 +78,31 @@ We aim to have a portfolio that is insensitive to F1, F3, F4, F5 but has a negat
 ### Results
 
 #### Distribution of Factor Loadings (Each Asset)
+Before optimization, we should delve into EDA, to realize the styles of each asset, that is to say, the factors loadings distribution of our asset.
 ![Distribution of Factor Loadings](Graphical_Illustrations/factor_loadings.png)
 
 #### Distribution of Alphas (Each Asset)
+The EDA should also include analysis of alpha of each asset.
 ![Distribution of Alphas](Graphical_Illustrations/alphas.png)
 
 #### Distribution of Sector (Each Asset)
+We also have to delve into the weight distribution in each sector.
 ![Distribution of Sector](Graphical_Illustrations/sector_distribution.png)
 
 #### Factor Model Residuals’ Attributes
+For this example, we can find out even using FF5 risk models, there are still roughly 60% of stocks return variation unexplained. This is where our optimization algorithm can help, increasing the information ratio based on the covariance matrix of residuals.
 ![Factor Model Residuals](Graphical_Illustrations/residuals.png)
 
 #### Contribution of Each Position to Portfolio Risk Exposures
+This graph gives a visualization of before/after factor loading contribution from each stock, so that we can realize whether we depend on only several or overweight several stocks to get desired factor loadings.
 ![Position Risk Exposures](Graphical_Illustrations/position_risk_exposures.gif)
 
 #### Contribution of Each Sector to Portfolio Risk Exposures
+In the same way, through this visualization, we can realize whether we overweight several sectors to gain desired exposure to certain risk factors.
 ![Sector Risk Exposures](Graphical_Illustrations/sector_risk_exposures.png)
 
 #### Expected Alpha and Volatility (Daily and Annualized)
+This graph showcases the given constraints on weights, sector weights, factor loadings, expected performance of our solutions compared to the original portfolios.
 ![Expected Alpha and Volatility](Graphical_Illustrations/alpha_volatility.png)
 
 ### References
