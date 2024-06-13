@@ -137,12 +137,6 @@ We also have to investigate the weights in each sector in these recommended port
 ![Sector Weights](Graphical_Illustrations/sector_weights.png)
 
 
-### Group Members
-- Justin Yu-Chi Hsu
-- Qisong Li
-- Lei Jiang
-- Yu Zhang
-
 ### References
 
 1. [Information Ratio Definition](https://corporatefinanceinstitute.com/resources/career-map/sell-side/capital-markets/information-ratio/)
